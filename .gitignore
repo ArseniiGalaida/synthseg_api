@@ -31,3 +31,8 @@ SynthSeg/qc.py
 SynthSeg/training_heart.py
 SynthSeg/training_vae.py
 SynthSeg/validate_vae.py
+
+out_data
+
+requirements_python3.6.txt
+requirements_python3.8.txt
