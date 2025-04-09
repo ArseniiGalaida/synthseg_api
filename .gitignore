@@ -2,6 +2,7 @@ build
 dist
 SynthSeg.egg-info
 venv
+.env
 **/__pycache__/
 .idea
 
@@ -36,3 +37,5 @@ out_data
 
 requirements_python3.6.txt
 requirements_python3.8.txt
+
+temp/
