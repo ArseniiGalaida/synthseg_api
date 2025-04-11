@@ -31,6 +31,11 @@ def clean_temp_files(input_path: str, output_path: str):
         os.remove(output_path)
 
 
+@app.get("/")
+def index():
+    return {"Extravision": "SynthSegApp"}
+
+
 @app.post("/segment/")
 async def segment_nii(file: UploadFile = File(...), background_tasks: BackgroundTasks = BackgroundTasks()):
     ensure_model()
