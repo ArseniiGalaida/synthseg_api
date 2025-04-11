@@ -39,3 +39,5 @@ requirements_python3.6.txt
 requirements_python3.8.txt
 
 temp/
+encoded.txt
+test_input.json
